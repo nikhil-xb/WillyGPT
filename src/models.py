@@ -11,7 +11,7 @@ The model has been structured in the following manner:
 '''
 from .config import Config
 import torch
-from torch.nn as nn
+import torch.nn as nn
 import math
 
 class SelfAttentionHead(nn.Module):
