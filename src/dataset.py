@@ -29,7 +29,7 @@ class CustomSampler(Sampler):
         self._num_samples= num_samples
     @property
     def num_samples(self):
-        self._num_samples is None:
+        if self._num_samples is None:
             return len(self.data)
         return self._num_samples
     def __iter__(self):
