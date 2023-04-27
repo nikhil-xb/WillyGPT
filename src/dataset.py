@@ -5,6 +5,7 @@
 from torch.utils.data import Dataset, Sampler
 from .config import Config
 from transformers import GPT2TokenizerFast
+import torch
 
 class WillyDataset(Dataset):
     def __init__(self, text_file, config, tokenizer=None):
