@@ -3,5 +3,5 @@ pandas
 tqdm
 torch
 transformers
-sklearn
+scikit-learn
 
