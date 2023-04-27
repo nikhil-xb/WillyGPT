@@ -12,7 +12,7 @@ I would recommend to go through the paper [Attention is All You Need](https://ar
 ## File Structure
 ---
 ```
-WillGPT
+WillyGPT
 ├──README.md
 ├──requirements.txt
 ├──scrape.py
