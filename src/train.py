@@ -43,7 +43,7 @@ def run_():
             val_loss_min= val_loss
     end= time.time()- start_time
     time_taken= end / (60*60)
-    print("Time taken= {time_taken:.1f} HOURS TO TRAIN THE MODEL")
+    print(f"Time taken= {time_taken:.1f} HOURS TO TRAIN THE MODEL")
 
 if __name__=="__main__":
     wandb.login()

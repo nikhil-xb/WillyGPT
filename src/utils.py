@@ -14,7 +14,7 @@ def generate(model, prompt, max_tokens, temp= 0.7):
         prompt= prompt[:,:Config.block_size]
         logits= model(prompt)
         logits= logits[:,-1, :]
-        logits= logits / temp
+        logits= logits/temp
         probs= nn.functional.softmax(logits, dim= -1)
         next_prompt= torch.multinomial(probs, num_samples= 1)
         prompt= torch.cat((prompt, next_prompt), dim= 1)
