@@ -6,7 +6,7 @@ This repository implements a GPT2 model and pretraining from scratch on the Will
 
 The model is trained on the corpus of all his plays. Since pre training had to done, we ought to run the model for multiple epochs for optimum learning. Due to the resource constraints the model ran for 10 epochs, reaching the loss value of 11.8 %. 
 
-The project has been inspired from Andrej Karpathy's [miniGPT](https://www.github.com/karpathy/minigpt)
+The project has been inspired from Andrej Karpathy's [minGPT](https://www.github.com/karpathy/minGPT)
 
 I would recommend to go through the paper [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf) to know more about the transformer models and the significance of **Self Attention**.
 ## File Structure
